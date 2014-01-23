@@ -33,9 +33,10 @@
 		<Item Name="drive_calc.vi" Type="VI" URL="../drive/drive_calc.vi"/>
 		<Item Name="drive_getInputs.vi" Type="VI" URL="../drive/drive_getInputs.vi"/>
 		<Item Name="drive_setOut.vi" Type="VI" URL="../drive/drive_setOut.vi"/>
-		<Item Name="flinger_inputs.ctl" Type="VI" URL="../flinger_inputs.ctl"/>
+		<Item Name="flinger_inputs.ctl" Type="VI" URL="../flinger/flinger_inputs.ctl"/>
 		<Item Name="flinger_begin.vi" Type="VI" URL="../flinger/flinger_begin.vi"/>
 		<Item Name="flinger_outputs.ctl" Type="VI" URL="../flinger/flinger_outputs.ctl"/>
+		<Item Name="flinger_getInputs.vi" Type="VI" URL="../flinger/flinger_getInputs.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -327,10 +328,6 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -435,8 +432,8 @@ DirectoryIndex index.htm
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="get_inputs.vi" Type="VI" URL="../util/get_inputs.vi"/>
 		<Item Name="joystick_vals.ctl" Type="VI" URL="../util/joystick_vals.ctl"/>
-		<Item Name="calc.vi" Type="VI" URL="../util/calc.vi"/>
 		<Item Name="set_out.vi" Type="VI" URL="../util/set_out.vi"/>
+		<Item Name="calc.vi" Type="VI" URL="../util/calc.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
