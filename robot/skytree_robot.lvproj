@@ -37,6 +37,9 @@
 		<Item Name="flinger_begin.vi" Type="VI" URL="../flinger/flinger_begin.vi"/>
 		<Item Name="flinger_outputs.ctl" Type="VI" URL="../flinger/flinger_outputs.ctl"/>
 		<Item Name="flinger_getInputs.vi" Type="VI" URL="../flinger/flinger_getInputs.vi"/>
+		<Item Name="open_roller.vi" Type="VI" URL="../roller/open_roller.vi"/>
+		<Item Name="flinger_setOutputs.vi" Type="VI" URL="../flinger/flinger_setOutputs.vi"/>
+		<Item Name="flinger_calc.vi" Type="VI" URL="../flinger/flinger_calc.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -303,6 +306,7 @@
 				<Item Name="WPI_SolenoidValue.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidValue.ctl"/>
 				<Item Name="WPI_SolenoidSetEnum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidSetEnum.vi"/>
 				<Item Name="WPI_SolenoidSet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidSet.vi"/>
+				<Item Name="WPI_SolenoidRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidRefNum Registry Get.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="DC Motor Controller.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/DC Motor Controller/HAIOL/DC Motor Controller.lvclass"/>
@@ -328,6 +332,9 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="p_edge.vi" Type="VI" URL="../util/p_edge.vi"/>
+			<Item Name="toggle.vi" Type="VI" URL="../util/toggle.vi"/>
+			<Item Name="timer.vi" Type="VI" URL="../util/timer.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -806,6 +813,7 @@ DirectoryIndex index.htm
 				<Item Name="WPI_GyroGetAngle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroGetAngle.vi"/>
 				<Item Name="WPI_GyroRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroRefNum Registry Get.vi"/>
 				<Item Name="WPI_MotorControlRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlRefNum Registry Get.vi"/>
+				<Item Name="WPI_SolenoidValue.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidValue.ctl"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -821,6 +829,12 @@ DirectoryIndex index.htm
 			<Item Name="outputs.ctl" Type="VI" URL="../util/outputs.ctl"/>
 			<Item Name="drive_calc.vi" Type="VI" URL="../drive/drive_calc.vi"/>
 			<Item Name="drive_setOut.vi" Type="VI" URL="../drive/drive_setOut.vi"/>
+			<Item Name="flinger_inputs.ctl" Type="VI" URL="../flinger/flinger_inputs.ctl"/>
+			<Item Name="timer.vi" Type="VI" URL="../util/timer.vi"/>
+			<Item Name="toggle.vi" Type="VI" URL="../util/toggle.vi"/>
+			<Item Name="p_edge.vi" Type="VI" URL="../util/p_edge.vi"/>
+			<Item Name="flinger_outputs.ctl" Type="VI" URL="../flinger/flinger_outputs.ctl"/>
+			<Item Name="flinger_calc.vi" Type="VI" URL="../flinger/flinger_calc.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
