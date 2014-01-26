@@ -317,7 +317,7 @@
 			<Item Name="roller_inputs.ctl" Type="VI" URL="../roller/roller_inputs.ctl"/>
 			<Item Name="roller_outputs.ctl" Type="VI" URL="../roller/roller_outputs.ctl"/>
 			<Item Name="p_edge.vi" Type="VI" URL="../util/p_edge.vi"/>
-			<Item Name="toggle.vi" Type="VI" URL="../util/toggle.vi"/>
+			<Item Name="timer.vi" Type="VI" URL="../util/timer.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
