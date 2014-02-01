@@ -333,8 +333,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="p_edge.vi" Type="VI" URL="../util/p_edge.vi"/>
-			<Item Name="toggle.vi" Type="VI" URL="../util/toggle.vi"/>
 			<Item Name="timer.vi" Type="VI" URL="../util/timer.vi"/>
+			<Item Name="roller_outputs.ctl" Type="VI" URL="../roller/roller_outputs.ctl"/>
+			<Item Name="roller_inputs.ctl" Type="VI" URL="../roller/roller_inputs.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -912,6 +913,12 @@ DirectoryIndex index.htm
 			<Item Name="flinger_begin.vi" Type="VI" URL="../flinger/flinger_begin.vi"/>
 			<Item Name="flinger_getInputs.vi" Type="VI" URL="../flinger/flinger_getInputs.vi"/>
 			<Item Name="flinger_setOutputs.vi" Type="VI" URL="../flinger/flinger_setOutputs.vi"/>
+			<Item Name="roller_begin.vi" Type="VI" URL="../roller/roller_begin.vi"/>
+			<Item Name="roller_inputs.ctl" Type="VI" URL="../roller/roller_inputs.ctl"/>
+			<Item Name="roller_outputs.ctl" Type="VI" URL="../roller/roller_outputs.ctl"/>
+			<Item Name="roller_calc.vi" Type="VI" URL="../roller/roller_calc.vi"/>
+			<Item Name="roller_getInputs.vi" Type="VI" URL="../roller/roller_getInputs.vi"/>
+			<Item Name="roller_setOut.vi" Type="VI" URL="../roller/roller_setOut.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
