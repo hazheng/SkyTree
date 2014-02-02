@@ -906,7 +906,6 @@ DirectoryIndex index.htm
 			<Item Name="drive_setOut.vi" Type="VI" URL="../drive/drive_setOut.vi"/>
 			<Item Name="flinger_inputs.ctl" Type="VI" URL="../flinger/flinger_inputs.ctl"/>
 			<Item Name="timer.vi" Type="VI" URL="../util/timer.vi"/>
-			<Item Name="toggle.vi" Type="VI" URL="../util/toggle.vi"/>
 			<Item Name="p_edge.vi" Type="VI" URL="../util/p_edge.vi"/>
 			<Item Name="flinger_outputs.ctl" Type="VI" URL="../flinger/flinger_outputs.ctl"/>
 			<Item Name="flinger_calc.vi" Type="VI" URL="../flinger/flinger_calc.vi"/>
@@ -919,6 +918,8 @@ DirectoryIndex index.htm
 			<Item Name="roller_calc.vi" Type="VI" URL="../roller/roller_calc.vi"/>
 			<Item Name="roller_getInputs.vi" Type="VI" URL="../roller/roller_getInputs.vi"/>
 			<Item Name="roller_setOut.vi" Type="VI" URL="../roller/roller_setOut.vi"/>
+			<Item Name="auto.vi" Type="VI" URL="../util/auto.vi"/>
+			<Item Name="toggle.vi" Type="VI" URL="../util/toggle.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
