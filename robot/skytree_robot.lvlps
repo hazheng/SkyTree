@@ -1,5 +1,9 @@
 [ProjectWindow_Data]
+<<<<<<< HEAD
 ProjectExplorer.ClassicPosition[String] = "25,2,858,1598"
+=======
+ProjectExplorer.ClassicPosition[String] = "36,8,738,1367"
+>>>>>>> 896073271098cd1bba0cd81f6d215010dd250eb7
 
 [AB_Cache_{8918E54B-57F8-4157-9A9B-E5B1DDE9D5DC}]
 Cache_Path[Path] Line0001 = "/C/Users/Blair Robot Project/AppData/Local/Temp/AB"
