@@ -14,7 +14,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-<<<<<<< HEAD
 		<Item Name="Sim Support Files" Type="Folder">
 			<Item Name="FRC SimulatedRSC" Type="Folder">
 				<Item Name="ive" Type="Folder">
@@ -28,8 +27,6 @@
 			</Item>
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
-=======
->>>>>>> 896073271098cd1bba0cd81f6d215010dd250eb7
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="get_inputs.vi" Type="VI" URL="../util/get_inputs.vi"/>
 		<Item Name="joystick_vals.ctl" Type="VI" URL="../util/joystick_vals.ctl"/>
@@ -525,15 +522,6 @@
 				<Item Name="WPI_CANJaguar_ScheduledPeriodicUpdates.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/SubVIs/WPI_CANJaguar_ScheduledPeriodicUpdates.vi"/>
 				<Item Name="WPI_CAN_PeriodicStatusIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/SubVIs/WPI_CAN_PeriodicStatusIDs.ctl"/>
 				<Item Name="WPI_CANJaguar_RecentStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/SubVIs/WPI_CANJaguar_RecentStatus.vi"/>
-<<<<<<< HEAD
-=======
-				<Item Name="WPI_CANJaguar_UpdateSyncGroup.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/WPI_CANJaguar_UpdateSyncGroup.vi"/>
-				<Item Name="WPI_RobotDriveSafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyUpdate.vi"/>
-				<Item Name="WPI_RobotDriveMotorSelectorEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveMotorSelectorEnum.ctl"/>
-				<Item Name="WPI_RobotDriveGetMotorControlReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveGetMotorControlReference.vi"/>
-				<Item Name="WPI_RobotDriveMotors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveMotors.vi"/>
-				<Item Name="WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi"/>
->>>>>>> 896073271098cd1bba0cd81f6d215010dd250eb7
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="DC Motor Controller.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/DC Motor Controller/HAIOL/DC Motor Controller.lvclass"/>
@@ -558,14 +546,6 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-<<<<<<< HEAD
-=======
-			<Item Name="n_edge.vi" Type="VI" URL="../util/n_edge.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
->>>>>>> 896073271098cd1bba0cd81f6d215010dd250eb7
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -668,10 +648,7 @@ DirectoryIndex index.htm
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
-<<<<<<< HEAD
-=======
 		<Item Name="n_edge.vi" Type="VI" URL="../util/n_edge.vi"/>
->>>>>>> 896073271098cd1bba0cd81f6d215010dd250eb7
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -1078,8 +1055,6 @@ DirectoryIndex index.htm
 				<Item Name="WPI_CounterDigitalInputToDigitalSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterDigitalInputToDigitalSource.vi"/>
 				<Item Name="WPI_CounterDigitalOutputToDigitalSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterDigitalOutputToDigitalSource.vi"/>
 				<Item Name="WPI_DigitalOutputDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputDevRef.ctl"/>
-<<<<<<< HEAD
-=======
 				<Item Name="WPI_SolenoidRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidRefNum Registry Get.vi"/>
 				<Item Name="WPI_DriverStationStart Communication.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStart Communication.vi"/>
 				<Item Name="WPI_DriverStationLaptopDataCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationLaptopDataCacheOp.ctl"/>
@@ -1170,7 +1145,6 @@ DirectoryIndex index.htm
 				<Item Name="WPI_DriverStationStartStopVI.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStartStopVI.vi"/>
 				<Item Name="WPI_DriverStationStart VI Asynchronous.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStart VI Asynchronous.vi"/>
 				<Item Name="WPI_DriverStationStop VI Asynchronous.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStop VI Asynchronous.vi"/>
->>>>>>> 896073271098cd1bba0cd81f6d215010dd250eb7
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1197,8 +1171,6 @@ DirectoryIndex index.htm
 			<Item Name="toggle.vi" Type="VI" URL="../util/toggle.vi"/>
 			<Item Name="Deadband.vi" Type="VI" URL="../util/Deadband.vi"/>
 			<Item Name="calc.vi" Type="VI" URL="../util/calc.vi"/>
-<<<<<<< HEAD
-=======
 			<Item Name="telemetry.ctl" Type="VI" URL="../util/telemetry.ctl"/>
 			<Item Name="get_inputs.vi" Type="VI" URL="../util/get_inputs.vi"/>
 			<Item Name="joystick_vals.ctl" Type="VI" URL="../util/joystick_vals.ctl"/>
@@ -1210,7 +1182,12 @@ DirectoryIndex index.htm
 			<Item Name="flinger_setOutputs.vi" Type="VI" URL="../flinger/flinger_setOutputs.vi"/>
 			<Item Name="drive_setOut.vi" Type="VI" URL="../drive/drive_setOut.vi"/>
 			<Item Name="auto.vi" Type="VI" URL="../util/auto.vi"/>
->>>>>>> 896073271098cd1bba0cd81f6d215010dd250eb7
+			<Item Name="catch_begin.vi" Type="VI" URL="../catch/catch_begin.vi"/>
+			<Item Name="catch_inputs.ctl" Type="VI" URL="../catch/catch_inputs.ctl"/>
+			<Item Name="catch_outputs.ctl" Type="VI" URL="../catch/catch_outputs.ctl"/>
+			<Item Name="catch_calc.vi" Type="VI" URL="../catch/catch_calc.vi"/>
+			<Item Name="catch_get_inputs.vi" Type="VI" URL="../catch/catch_get_inputs.vi"/>
+			<Item Name="catch_set_out.vi" Type="VI" URL="../catch/catch_set_out.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -1239,11 +1216,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[0].itemID" Type="Str">{20268038-FC1E-42CD-ABAD-31088D518C93}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-<<<<<<< HEAD
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-=======
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Team Code/Robot Main.vi</Property>
->>>>>>> 896073271098cd1bba0cd81f6d215010dd250eb7
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
