@@ -78,6 +78,9 @@
 		<Item Name="catch_set_out.vi" Type="VI" URL="../catch/catch_set_out.vi"/>
 		<Item Name="2ballzauto.vi" Type="VI" URL="../util/2ballzauto.vi"/>
 		<Item Name="getcurrentposition.vi" Type="VI" URL="../util/getcurrentposition.vi"/>
+		<Item Name="delay.vi" Type="VI" URL="../util/delay.vi"/>
+		<Item Name="2ball.vi" Type="VI" URL="../util/2ball.vi"/>
+		<Item Name="bang.vi" Type="VI" URL="../util/bang.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
